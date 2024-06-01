@@ -41,7 +41,7 @@ const Hero = () => {
             Unleash the power of AI within NooriAI. Upgrade your productivity
             with NooriAI, the open AI app.
           </p>
-          <Link>
+          <Link to="/create-post">
             <Button href="create-post" white>
               Get started
             </Button>
