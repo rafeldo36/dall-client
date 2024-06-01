@@ -96,7 +96,9 @@ function App() {
               Connect to MetaMask
             </Button>
           )} */}
-          <Button href="/create-post">Create</Button>
+          <Link to="/create-post">
+            <Button>Create</Button>
+          </Link>
         </div>
       </header>
       <main className="sm:p-8 px-4 py-8 w-full bg-[#0D0C14] min-h-[calc(100vh-73px)]">

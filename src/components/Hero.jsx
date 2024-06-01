@@ -4,6 +4,7 @@ import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
+import { Link } from "react-router-dom";
 import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
@@ -40,9 +41,11 @@ const Hero = () => {
             Unleash the power of AI within NooriAI. Upgrade your productivity
             with NooriAI, the open AI app.
           </p>
-          <Button href="create-post" white>
-            Get started
-          </Button>
+          <Link>
+            <Button href="create-post" white>
+              Get started
+            </Button>
+          </Link>
           <ButtonGradient />
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
