@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import { logo1 } from "./assets";
 import { Home, CreatePost } from "./pages";
-import Upload from "./artifacts/contracts/Upload.sol/Upload.json";
+// import Upload from "./artifacts/contracts/Upload.sol/Upload.json";
 import Button from "./components/Button";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 // import { ethers } from "ethers";
