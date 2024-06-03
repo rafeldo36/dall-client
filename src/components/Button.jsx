@@ -17,9 +17,9 @@ const Button = ({
 
   const spanClasses = "relative z-10";
 
-  useEffect(() => {
-    console.log("Account:", account);
-  }, [account]); // Log the account whenever it changes
+  // useEffect(() => {
+  //   console.log("Account:", account);
+  // }, [account]); // Log the account whenever it changes
 
   const renderButton = () => (
     <button className={classes} onClick={onClick} type={type}>
